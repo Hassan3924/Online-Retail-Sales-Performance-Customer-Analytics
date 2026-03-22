@@ -31,11 +31,6 @@ This project performs customer segmentation and lifetime value estimation on the
 - MySQL Workbench
 - Window functions, CTEs, CASE statements, date functions
 
-**How to Run**
-1. Import the dataset into table `online_retail`
-2. Execute the main analysis script (contains RFM + CLV)
-3. Explore the final output table (customer-level segmentation + CLV)
-
 **Future Improvements**
 - Add churn probability modeling
 - Visualize results in Tableau / Power BI
