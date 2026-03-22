@@ -1,7 +1,7 @@
 # Online Retail Customer Segmentation & Lifetime Value Analysis (SQL Project)
 
 **Project Overview**  
-This project performs customer segmentation and lifetime value estimation on the classic UCI Online Retail dataset (~541,000 transactions from 2010–2011). The goal is to understand purchasing behavior, identify high-value customers, spot retention opportunities, and uncover seasonal trends using advanced SQL techniques.
+This project performs customer segmentation and lifetime value estimation on the classic UCI Online Retail dataset (~541,000 transactions from 2010–2011(majority)). The goal is to understand purchasing behavior, identify high-value customers, spot retention opportunities, and uncover seasonal trends using advanced SQL techniques.
 
 **Key Techniques Used**
 - Aggregation (SUM, COUNT, GROUP BY)
@@ -36,6 +36,4 @@ This project performs customer segmentation and lifetime value estimation on the
 - Visualize results in Tableau / Power BI
 - Incorporate more advanced CLV models (BG/NBD, Pareto/NBD)
 
-This project demonstrates strong SQL skills for customer analytics, segmentation, and value estimation — perfect for data analyst / business intelligence roles.
-
-Feel free to star ⭐ or fork the repo!
+This project demonstrates strong SQL skills for customer analytics, segmentation, and value estimation perfect for data analyst / business intelligence roles.
