@@ -19,7 +19,7 @@ This project performs customer segmentation and lifetime value estimation on the
 - Conservative, segment-specific CLV (using adjusted multipliers: 1.0 for Champions down to 0.1 for Lost)
 
 **Key Business Insights**
-- The United Kingdom dominates revenue (≈80–85%)
+- The United Kingdom dominates revenue (≈80%)
 - Revenue shows strong seasonality — sharp rise from September, peaking in November (holiday effect)
 - 'REGENCY CAKESTAND 3 TIER' and 'WHITE HANGING HEART T-LIGHT HOLDER' are consistent top performers
 - Champions & Loyal Customers generate disproportionate revenue despite being a small percentage of the base
