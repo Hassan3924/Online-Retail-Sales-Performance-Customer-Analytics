@@ -282,15 +282,33 @@ FROM
 ORDER BY
 	estimated_clv DESC
 
-# Key insights for far:
-1. UK has been the country that has the most business 
-2. Things have been returned before by Customers. For example: -8000 quantity number
-3. Wrote an SQL query to show the months which performed better than previous month as well as the month where orders are made the most
-4. Got the result of our most loyal customer 
-5. Results showed that most orders start to trend upwards from September and peaks in November most likely because of the holidays
-6. Gotten the most ordered items from each month to make potential offers
-7. 'WHITE HANGING HEART T-LIGHT HOLDER' item was the most ordered item 6/12 times of the year
-8. 'REGENCY CAKESTAND 3 TIER' has been the top performance in terms of revenue more than 50% of the months
-9. Using moving_average, it shows that the revenue_generated shows an upward trend at the start and towards the end of the year. 
-10. Wrote a query calculating the RFM score.
-11. 
+-- =============================================
+-- KEY BUSINESS INSIGHTS FROM THE ANALYSIS
+-- =============================================
+
+-- 1. Geographic concentration
+--   • United Kingdom accounts for the vast majority of revenue and order volume (~80%)
+
+-- 2. Returns & cancellations
+--   • Negative quantities (returns/cancellations) are present in the data (e.g. -80995 on one record)
+--   • Filtered out in core analysis (WHERE Quantity > 0) to focus on net positive sales
+
+-- 3. Seasonality & trend
+--   • Strong upward trend from September, peaking in November (holiday shopping season)
+--   • Revenue shows cyclical pattern: upward at start and end of year
+
+-- 4. Top performers
+--   • 'WHITE HANGING HEART T-LIGHT HOLDER' was the most ordered item in 6 out of 12 months
+--   • 'REGENCY CAKESTAND 3 TIER' generated the highest revenue in more than 50% of months
+
+-- 5. Customer behavior & loyalty
+--   • Identified the most loyal customer by total spend
+--   • RFM analysis segmented customers into 8 groups (Champions → Lost)
+
+-- 6. Month-over-month performance
+--   • Built logic to compare each month’s revenue to the previous month within the same year
+--   • Highlighted periods of growth vs decline
+
+-- Value summary:
+-- This analysis reveals strong seasonality, extreme concentration in the UK market, and clear winners in product performance. 
+-- The RFM + segment-specific CLV approach provides actionable prioritization for retention, upselling, and marketing spend.
